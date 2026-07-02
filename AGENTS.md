@@ -117,6 +117,13 @@ From `README.md` (run at repo root):
 - Prefer **minimal diffs** and follow existing import style (`@/…`).
 - **Coordinated edits:** changing collections or `site`/`integrations` in `astro.config.mjs` may require updates to routes, RSS, or sitemap behavior — verify builds.
 
+## Cursor Cloud specific instructions
+
+- **Dependencies auto-refresh** via `npm install` on VM startup (matches the `package-lock.json` → npm). No extra setup needed.
+- **Run the site:** `npm run dev` starts the Astro dev server on `http://localhost:4321/` (use `npm run dev -- --host` to expose it). Hot reload picks up new/edited content collection files without a restart.
+- **No lint or test scripts** exist in `package.json`. `astro check` is not wired up (no `@astrojs/check`/`typescript` deps), so the closest correctness gate is `npm run build`, which type-checks content schemas and renders all ~55 pages.
+- **Node:** builds/runs fine on Node 22 (per `netlify.toml` `NODE_VERSION="22"`), despite the README listing 18/20.
+
 ## Lexington docs & support (from README)
 
 - **Theme specs:** https://lexingtonthemes.com/templates/hemingway  
