@@ -1,0 +1,13 @@
+---
+description: Global conventions for the Hemingway Lexington Astro theme — imports, fundations folder, minimal diffs.
+alwaysApply: true
+---
+
+# Lexington Hemingway — global rules
+
+- **Imports:** Use the `@/` alias for `src/` (e.g. `@/layouts/BaseLayout.astro`, `@/components/fundations/...`). Match existing patterns in this repo.
+- **`fundations` spelling:** The directory is `src/components/fundations/`. Never rename it to “foundations”; path and imports will break.
+- **Scope:** Keep changes minimal and localized. No drive-by refactors or unrelated files.
+- **Dependencies:** Do not add packages or features not requested; only use what appears in `package.json` unless the user explicitly asks to add one.
+- **Layouts:** Most pages use `BaseLayout`; blog/podcast/author/legal pages use their respective layouts (`BlogLayout`, `PodcastLayout`, `AuthorsLayout`, `LegalLayout`), which wrap `BaseLayout`.
+- **Publisher docs:** Theme-specific and support links live in the root `README.md` (documentation, changelog, support URLs).

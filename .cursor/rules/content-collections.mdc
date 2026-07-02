@@ -1,0 +1,18 @@
+---
+description: Content collection schemas, frontmatter, and image() usage for src/content.
+globs:
+  - src/content/**
+---
+
+# Content (`src/content/**`)
+
+- **Schemas live in** `src/content.config.ts` only. Collections: `posts`, `authors`, `podcast`, `legal` — each backed by a **glob** loader with paths under `src/content/<name>/`.
+- **Do not change Zod fields** without updating every consumer (`src/pages/**`, layouts, components, `src/pages/rss.xml.js`). Optional vs required must stay consistent with how pages read `entry.data`.
+- **`image()`:** `posts`, `authors`, and `podcast` use `image: { url: image(), alt: z.string() }` (podcast also `guestAvatar`). Keep `url`/`alt` shape; invalid paths break builds. Existing entries reference `src/images/` (e.g. `/src/images/thumbnails/...`).
+- **Copy-paste templates:**
+  - Blog: `src/content/posts/1.md`
+  - Authors: `src/content/authors/juliet-ramos.md`
+  - Podcast: `src/content/podcast/1.md` (`audioSrc` under `/audios/...` → `public/audios/`)
+  - Legal: `src/content/legal/privacy.md`
+- **`posts`** use `retainBody: true`; the blog slug route uses `entry.body` with `reading-time` — be mindful when changing loader options.
+- **Author slugs in posts/podcast** are strings (e.g. `author: "david-lee"`) that align with `src/content/authors/` entry ids/slugs.

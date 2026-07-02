@@ -1,0 +1,17 @@
+---
+description: File-based routing and layout usage for Hemingway src/pages.
+globs:
+  - src/pages/**
+---
+
+# Pages (`src/pages/**`)
+
+- **File-based routing:** Each `.astro` (or `rss.xml.js`) maps to a URL path from its path under `src/pages/`.
+- **Dynamic segments:**
+  - `blog/posts/[...slug].astro` — param `slug` = content entry `id` for collection `posts`.
+  - `podcast/interviews/[...slug].astro` — `slug` = `podcast` entry `id`.
+  - `legal/[...slug].astro` and `authors/[...slug].astro` — pass `trailingSlash: false` in `getStaticPaths` entries (match existing pattern).
+  - Tag routes: `blog/tags/[tag].astro`, `podcast/tags/[tag].astro` — param is a tag string from frontmatter arrays.
+- **Layouts:** Use `BaseLayout` for marketing/system pages. Use `BlogLayout` / `PodcastLayout` / `AuthorsLayout` / `LegalLayout` only on the routes that already import them — they expect specific `frontmatter` / props.
+- **RSS:** `rss.xml.js` maps items to `/blog/posts/${post.id}/` — keep in sync with the blog post route if URLs change.
+- **Props:** Some pages pass `pageTitle` or `hideNav` / `hideFooter` to `BaseLayout`; follow adjacent files when adding new routes.

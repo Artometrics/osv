@@ -1,0 +1,15 @@
+---
+description: Coordinated changes for astro.config.mjs and src/content.config.ts only when necessary.
+globs:
+  - astro.config.*
+  - src/content.config.ts
+---
+
+# Astro config ↔ content config
+
+- **`astro.config.mjs`:** Defines `site`, Vite + Tailwind plugin, Markdown/Shiki options, integrations (`sitemap`, `mdx`). Changing `site` affects RSS (`context.site`), sitemap, and absolute URLs — update SEO placeholders in `src/components/fundations/head/Seo.astro` when going live.
+- **`src/content.config.ts`:** Defines collections and Zod schemas. Any schema change must be coordinated with:
+  - All `getCollection(...)` / `render(...)` usages under `src/pages/` and layouts
+  - `src/pages/rss.xml.js` (only serializes `posts` fields today)
+- **Prefer minimal edits:** Do not add integrations or npm dependencies unless the user requests it and `package.json` is updated.
+- **MDX:** Podcast and posts collections allow `.mdx`; `authors` and `legal` are `.md` only per loader patterns.
