@@ -6,7 +6,7 @@ Illustrative pieces used `nano_banana_pro`.
 
 | File | Style | Role |
 |------|-------|------|
-| hero-cover.png | KSM Soul hyperreal | Primary hero (wet-hair close-up) |
+| hero-cover.png | KSM Soul hyperreal (cropped clean) | Primary hero (wet-hair close-up) |
 | hero-pier.png | KSM Soul hyperreal | Secondary hero / about (fog pier + black flag) |
 | portrait-wet.png | KSM Soul hyperreal | Editorial / author strip |
 | portrait-blood.png | KSM Soul hyperreal | Issue cover accent |
