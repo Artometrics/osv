@@ -76,6 +76,7 @@ export default function HomeScreen() {
           src={HERO_VIDEO}
           poster={HERO}
           className="absolute inset-0 h-full w-full"
+          lazy={false}
         />
         <View className="absolute inset-0 bg-black/50" />
         <View className="osv-scanlines absolute inset-0" />

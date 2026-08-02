@@ -149,6 +149,10 @@ export default function Root({ children }: PropsWithChildren) {
               }
               .osv-loop-video {
                 display: block;
+                width: 100% !important;
+                height: 100% !important;
+                object-fit: cover !important;
+                background: #000;
               }
               @media (prefers-reduced-motion: reduce) {
                 .osv-grain,
