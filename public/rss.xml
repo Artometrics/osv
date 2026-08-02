@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>OSV Magazine</title>
+    <link>https://kylesmcauliffe.com</link>
+    <description>Essays, interviews, and cultural signal</description>
+    <item>
+      <title><![CDATA[Human-centered engineering for web applications]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/10/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/10/</guid>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Focusing on the user while solving complex engineering problems in design.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[UI trends to watch in 2025]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/9/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/9/</guid>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Exploring the latest innovations shaping user interface and user experience design.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Engineering elegant web designs]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/8/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/8/</guid>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Best practices for merging engineering precision with creative design.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Accessibility in design engineering]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/6/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/6/</guid>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Why inclusive design is the cornerstone of successful digital products.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[From wireframes to prototypes]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/7/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/7/</guid>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Step-by-step workflows to transition smoothly from design concepts to functional prototypes.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Optimizing UI/UX for performance]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/5/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/5/</guid>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Techniques for designing interfaces that are fast, responsive, and user-friendly.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Design systems as a foundation for success]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/4/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/4/</guid>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to build scalable and reusable design systems for web development.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[The art of balancing beauty and function]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/3/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/3/</guid>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[How to approach design engineering to deliver visually stunning yet functional products.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Crafting user experiences with precision]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/2/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/2/</guid>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[Exploring the intersection of engineering and design to create intuitive user interfaces.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Breaking down complex ui patterns]]></title>
+      <link>https://kylesmcauliffe.com/blog/posts/1/</link>
+      <guid>https://kylesmcauliffe.com/blog/posts/1/</guid>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[A guide to understanding and implementing advanced user interface concepts.]]></description>
+    </item>
+  </channel>
+</rss>

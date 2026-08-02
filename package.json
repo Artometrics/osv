@@ -1,28 +1,55 @@
 {
-  "name": "@lexington/hemingway",
-  "type": "module",
+  "name": "osv-web",
+  "main": "expo-router/entry",
   "version": "0.0.1",
   "private": true,
+  "description": "OSV — Expo + Uniwind magazine (crimson zine)",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "content": "node scripts/build-content.mjs",
+    "content:ensure": "node scripts/ensure-generated-content.mjs",
+    "prestart": "npm run content:ensure",
+    "preweb": "npm run content:ensure",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "dev": "expo start --web",
+    "build": "npm run content:ensure && expo export -p web",
+    "eas-build-post-install": "npm run content:ensure"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "dependencies": {
-    "@astrojs/mdx": "^7.0.0",
-    "@astrojs/rss": "^4.0.18",
-    "@astrojs/sitemap": "^3.7.3",
-    "@lexingtonthemes/seo": "^0.4.0",
-    "@tailwindcss/forms": "^0.5.11",
-    "@tailwindcss/typography": "^0.5.20",
-    "astro": "^7.0.0",
-    "reading-time": "^1.5.0",
-    "tailwind-scrollbar-hide": "^4.0.0"
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "~57.0.8",
+    "expo-asset": "~57.0.7",
+    "expo-constants": "~57.0.7",
+    "expo-font": "~57.0.1",
+    "expo-image": "~57.0.1",
+    "expo-linking": "~57.0.4",
+    "expo-router": "~57.0.8",
+    "expo-splash-screen": "~57.0.5",
+    "expo-status-bar": "~57.0.1",
+    "lucide-react-native": "^1.28.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.0",
+    "react-native-render-html": "^6.3.4",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "~0.21.0",
+    "react-native-worklets": "0.10.0",
+    "tailwindcss": "^4.3.3",
+    "uniwind": "^1.10.0"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.1",
-    "tailwindcss": "^4.3.1"
+    "@types/react": "~19.2.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.12",
+    "typescript": "~6.0.3"
   }
 }

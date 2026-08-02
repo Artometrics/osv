@@ -1,0 +1,75 @@
+@import "tailwindcss";
+@import "uniwind";
+
+/*
+  OSV zine system — dark gothic crimson / black / white, condensed display + gothic accents.
+*/
+
+@theme {
+  --color-accent-50: #ffe5e5;
+  --color-accent-100: #ffb8b8;
+  --color-accent-200: #ff8a8a;
+  --color-accent-300: #ff5c5c;
+  --color-accent-400: #ff2e2e;
+  --color-accent-500: #e60000;
+  --color-accent-600: #b80000;
+  --color-accent-700: #8a0000;
+  --color-accent-800: #5c0000;
+  --color-accent-900: #2e0000;
+  --color-accent-950: #1a0000;
+
+  --color-base-50: #ffffff;
+  --color-base-100: #f4f4f4;
+  --color-base-200: #e5e5e5;
+  --color-base-300: #d4d4d4;
+  --color-base-400: #a3a3a3;
+  --color-base-500: #8a8a8a;
+  --color-base-600: #525252;
+  --color-base-700: #333333;
+  --color-base-800: #1a1a1a;
+  --color-base-900: #0a0a0a;
+  --color-base-950: #000000;
+
+  --font-display: "Anton", Impact, Haettenschweiler, sans-serif;
+  --font-gothic: "UnifrakturCook", "Times New Roman", serif;
+  --font-script: "GreatVibes", "Brush Script MT", cursive;
+  --font-sans: "Inter", Helvetica Neue, Helvetica, Arial, system-ui, sans-serif;
+  --font-serif: "Inter", Helvetica Neue, Helvetica, Arial, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-btn: 0px;
+}
+
+@layer theme {
+  :root {
+    @variant light {
+      --color-bg: #ffffff;
+      --color-bg-elevated: #f4f4f4;
+      --color-fg: #000000;
+      --color-muted: #333333;
+      --color-subtle: #8a8a8a;
+      --color-border: #000000;
+      --color-accent: #e60000;
+      --color-accent-soft: #ffe5e5;
+      --color-inverse: #ffffff;
+      --color-header: #ffffff;
+      --color-overlay: #ffffff;
+      --color-rule: #000000;
+    }
+
+    @variant dark {
+      --color-bg: #000000;
+      --color-bg-elevated: #1a1a1a;
+      --color-fg: #ffffff;
+      --color-muted: #c8c8c8;
+      --color-subtle: #8a8a8a;
+      --color-border: #ffffff;
+      --color-accent: #e60000;
+      --color-accent-soft: #3a0000;
+      --color-inverse: #000000;
+      --color-header: #000000;
+      --color-overlay: #1a1a1a;
+      --color-rule: #ffffff;
+    }
+  }
+}

@@ -1,32 +1,15 @@
-# Build output
-dist/
-.astro/
-
-# Dependencies
 node_modules/
-
-# Local Netlify CLI state
-.netlify
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Environment variables
-.env
-.env.production
-
-# macOS
+dist/
+.expo/
+.astro/
+.cache/
 .DS_Store
+.env
+.env.local
+.netlify
+*.log
+web-build/
 
-# Editors
-.vscode/
-.idea/
-*.iml
-
-# Temp
-*.swp
-*.tmp
-Thumbs.db
+# @generated expo-cli
+expo-env.d.ts
+dist/

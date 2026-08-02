@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "title": "Simplifying complex UI patterns",
+    "pubDate": "2025-05-01T00:00:00.000Z",
+    "description": "Learn how to understand and build advanced user interface patterns with clarity and confidence.",
+    "author": "david-lee",
+    "image": {
+      "url": "/images/thumbnails/e1.png",
+      "alt": "#_"
+    },
+    "guestAvatar": {
+      "url": "/images/thumbnails/1.jpg",
+      "alt": "#_"
+    },
+    "episodeNumber": 1,
+    "duration": "12:11 mins",
+    "audioSrc": "/audios/placeholder.mp3",
+    "tags": [
+      "patterns"
+    ],
+    "isRecent": true,
+    "isPopular": false,
+    "isLocked": true,
+    "body": "",
+    "bodyFormat": "html"
+  },
+  {
+    "id": "2",
+    "title": "Designing for impact: the future of user experience",
+    "pubDate": "2025-05-01T00:00:00.000Z",
+    "description": "A conversation on how smart design drives meaningful digital experiences.",
+    "author": "david-lee",
+    "image": {
+      "url": "/images/thumbnails/e2.png",
+      "alt": "#_"
+    },
+    "guestAvatar": {
+      "url": "/images/thumbnails/b.jpg",
+      "alt": "#_"
+    },
+    "episodeNumber": 1,
+    "duration": "12:11 mins",
+    "audioSrc": "/audios/placeholder.mp3",
+    "tags": [
+      "ux"
+    ],
+    "isRecent": true,
+    "isPopular": true,
+    "isLocked": false,
+    "body": "<p><strong>Interviewer:</strong> [Opening question, typically an introduction to the guest and their background.]<br><strong>[Author&#39;s Name]:</strong> [Answer where they share their introduction and background.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Second question focusing on the topic of the interview.]<br><strong>[Author&#39;s Name]:</strong> [Detailed answer explaining the concept or topic with examples if applicable.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Question about challenges or experiences related to the topic.]<br><strong>[Author&#39;s Name]:</strong> [Answer discussing real-world challenges and how they overcame them, possibly with a specific project example.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Question about principles, trends, or methodologies.]<br><strong>[Author&#39;s Name]:</strong> [Answer explaining their approach, design philosophy, or insights on emerging trends.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Question asking for advice or tips for others in the field.]<br><strong>[Author&#39;s Name]:</strong> [Answer with actionable advice or words of encouragement.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Closing question, typically about their future plans or final thoughts.]<br><strong>[Author&#39;s Name]:</strong> [Answer summarizing their thoughts and expressing gratitude.]</p>\n<hr>\n<p><strong>Interviewer:</strong> Thank you, [Author&#39;s Name]! This was a fantastic conversation.<br><strong>[Author&#39;s Name]:</strong> Thank you! I really enjoyed discussing this with you.</p>\n",
+    "bodyFormat": "html"
+  },
+  {
+    "id": "3",
+    "title": "Building better design systems with accessibility in mind",
+    "pubDate": "2025-05-01T00:00:00.000Z",
+    "description": "How accessible, reusable design systems can streamline development and scale efficiently.",
+    "author": "david-lee",
+    "image": {
+      "url": "/images/thumbnails/e3.png",
+      "alt": "#_"
+    },
+    "guestAvatar": {
+      "url": "/images/thumbnails/c.jpg",
+      "alt": "#_"
+    },
+    "episodeNumber": 1,
+    "duration": "12:11 mins",
+    "audioSrc": "/audios/placeholder.mp3",
+    "tags": [
+      "accessibility"
+    ],
+    "isRecent": false,
+    "isPopular": false,
+    "isLocked": false,
+    "body": "<p><strong>Interviewer:</strong> [Opening question, typically an introduction to the guest and their background.]</p>\n<p><strong>[Author&#39;s Name]:</strong> [Answer where they share their introduction and background.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Second question focusing on the topic of the interview.]</p>\n<p><strong>[Author&#39;s Name]:</strong> [Detailed answer explaining the concept or topic with examples if applicable.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Question about challenges or experiences related to the topic.]</p>\n<p><strong>[Author&#39;s Name]:</strong> [Answer discussing real-world challenges and how they overcame them, possibly with a specific project example.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Question about principles, trends, or methodologies.]</p>\n<p><strong>[Author&#39;s Name]:</strong> [Answer explaining their approach, design philosophy, or insights on emerging trends.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Question asking for advice or tips for others in the field.]</p>\n<p><strong>[Author&#39;s Name]:</strong> [Answer with actionable advice or words of encouragement.]</p>\n<hr>\n<p><strong>Interviewer:</strong> [Closing question, typically about their future plans or final thoughts.]</p>\n<p><strong>[Author&#39;s Name]:</strong> [Answer summarizing their thoughts and expressing gratitude.]</p>\n<hr>\n<p><strong>Interviewer:</strong> Thank you, [Author&#39;s Name]! This was a fantastic conversation.</p>\n<p><strong>[Author&#39;s Name]:</strong> Thank you! I really enjoyed discussing this with you.</p>\n",
+    "bodyFormat": "html"
+  },
+  {
+    "id": "4",
+    "title": "How design systems help scale modern web apps",
+    "pubDate": "2025-05-01T00:00:00.000Z",
+    "description": "A look at how inclusive design boosts user experience and product performance.",
+    "author": "david-lee",
+    "image": {
+      "url": "/images/thumbnails/e4.png",
+      "alt": "#_"
+    },
+    "guestAvatar": {
+      "url": "/images/thumbnails/d.jpg",
+      "alt": "#_"
+    },
+    "episodeNumber": 1,
+    "duration": "12:11 mins",
+    "audioSrc": "/audios/placeholder.mp3",
+    "tags": [
+      "webapps"
+    ],
+    "isRecent": true,
+    "isPopular": false,
+    "isLocked": true,
+    "body": "",
+    "bodyFormat": "html"
+  }
+]
