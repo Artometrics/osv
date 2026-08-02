@@ -1,7 +1,8 @@
 # OSV brand loop videos
 
-Short muted image→video loops from brand stills (Higgsfield **kling3_0_turbo**, ~5s).
-Encoded H.264, no audio, `+faststart`, under ~2 MB each for web heroes / lookbook tiles.
+Short muted image→video loops from brand stills (Higgsfield **kling3_0_turbo**, ~5s),
+then ping-pong encoded (~10s) for seamless web heroes / lookbook tiles.
+H.264, no audio, `+faststart`, under ~2 MB each.
 
 | File | Source still | Motion |
 |------|--------------|--------|
@@ -18,6 +19,6 @@ Encoded H.264, no audio, `+faststart`, under ~2 MB each for web heroes / lookboo
 
 ## Generation notes (2026-08-02)
 
-- Model: `kling3_0_turbo` · duration 5s · start_image from brand stills
-- Post: `ffmpeg` libx264 CRF 23, mute (`-an`), scale ≤1280, `+faststart`
+- Model: `kling3_0_turbo` · duration 5s · `start_image` from brand stills
+- Post: mute → ping-pong (forward+reverse) → libx264 CRF 23–26, scale ≤1280, `+faststart`
 - Native fallback still uses poster PNGs via `LoopVideo.tsx`
