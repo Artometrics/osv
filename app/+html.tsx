@@ -97,6 +97,66 @@ export default function Root({ children }: PropsWithChildren) {
                 opacity: 0.07;
                 mix-blend-mode: overlay;
                 background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+                animation: osv-grain-pulse 3.6s ease-in-out infinite;
+              }
+              @keyframes osv-grain-pulse {
+                0%, 100% { opacity: 0.05; }
+                50% { opacity: 0.11; }
+              }
+              .osv-scanlines {
+                pointer-events: none;
+                background: repeating-linear-gradient(
+                  to bottom,
+                  transparent 0,
+                  transparent 2px,
+                  rgba(0,0,0,0.12) 2px,
+                  rgba(0,0,0,0.12) 3px
+                );
+                mix-blend-mode: multiply;
+                opacity: 0.35;
+                animation: osv-scan-drift 8s linear infinite;
+              }
+              @keyframes osv-scan-drift {
+                from { background-position: 0 0; }
+                to { background-position: 0 24px; }
+              }
+              .osv-fade-up {
+                animation: osv-fade-up 0.9s ease-out both;
+              }
+              .osv-fade-up-delay { animation-delay: 0.12s; }
+              .osv-fade-up-delay-2 { animation-delay: 0.24s; }
+              .osv-fade-up-delay-3 { animation-delay: 0.36s; }
+              @keyframes osv-fade-up {
+                from { opacity: 0; transform: translateY(18px); }
+                to { opacity: 1; transform: translateY(0); }
+              }
+              .osv-glitch {
+                position: relative;
+                animation: osv-glitch-jitter 4.5s steps(2, end) infinite;
+              }
+              .osv-glitch::before,
+              .osv-glitch::after {
+                content: attr(data-text);
+                position: absolute;
+                inset: 0;
+                pointer-events: none;
+              }
+              @keyframes osv-glitch-jitter {
+                0%, 90%, 100% { transform: translate(0); text-shadow: none; }
+                92% { transform: translate(-2px, 1px); text-shadow: 2px 0 #E60000; }
+                94% { transform: translate(2px, -1px); text-shadow: -2px 0 rgba(255,255,255,0.6); }
+                96% { transform: translate(0); text-shadow: none; }
+              }
+              .osv-loop-video {
+                display: block;
+              }
+              @media (prefers-reduced-motion: reduce) {
+                .osv-grain,
+                .osv-scanlines,
+                .osv-fade-up,
+                .osv-glitch {
+                  animation: none !important;
+                }
               }
               .osv-prose {
                 font-family: Inter, Helvetica Neue, Helvetica, Arial, sans-serif;

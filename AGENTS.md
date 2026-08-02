@@ -14,6 +14,7 @@ OSV is a multi-page **magazine + podcast** product with a high-contrast **dark g
 - **Fonts:** Anton, BebasNeue, UnifrakturCook, GreatVibes, Inter (`assets/fonts/` + `public/fonts/`)
 - **Content:** `src/content/*` → `scripts/build-content.mjs` → `src/generated/*.json`
 - **Brand images:** `public/images/brand/`
+- **Brand loops:** `public/videos/brand/` (Ken Burns ping-pong MP4s for hero / lookbook)
 
 ## Folder map
 
