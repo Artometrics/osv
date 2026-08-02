@@ -1,18 +1,23 @@
 # OSV brand loop videos
 
-Short ambient loops generated with Higgsfield **kling3_0** image→video from brand stills, then ping-pong encoded for web (H.264, muted, `+faststart`, ~10s).
+Short muted image→video loops from brand stills (Higgsfield **kling3_0_turbo**, ~5s).
+Encoded H.264, no audio, `+faststart`, under ~2 MB each for web heroes / lookbook tiles.
 
 | File | Source still | Motion |
 |------|--------------|--------|
-| `hero-cover.mp4` | hero-cover.png | Slow push-in, fog, fabric micro-motion |
-| `portrait-blood.mp4` | portrait-blood.png | Breathing motion, liquid drip |
-| `armor-lamb.mp4` | armor-lamb.png | Soft breathe, fur/fabric drift |
-| `black-cat.mp4` | black-cat.png | Blink / fur micro-motion |
-| `gothic-tower.mp4` | gothic-tower.png | Fog and cloud drift |
-| `hero-pier.mp4` | hero-pier.png | Mist over water |
-| `anime-chrome-nun.mp4` | anime-chrome-nun.png | Hair motion, chrome shimmer |
-| `anime-red-liquid.mp4` | anime-red-liquid.png | Liquid drip / shimmer |
-| `dark-knight.mp4` | dark-knight.png | Cape motion, armor gleam |
-| `battlefield-banners.mp4` | battlefield-banners.png | Flag ripple, ash/fog |
+| `hero-cover.mp4` | hero-cover.png | Hair drift + breathe zoom |
+| `portrait-blood.mp4` | portrait-blood.png | Subtle breath / blood gleam |
+| `armor-lamb.mp4` | armor-lamb.png | Soft push-in, wool / metal shimmer |
+| `black-cat.mp4` | black-cat.png | Fur breath, eye gleam |
+| `gothic-tower.mp4` | gothic-tower.png | Rising fog |
+| `hero-pier.mp4` | hero-pier.png | Fog drift + flag flutter |
+| `anime-chrome-nun.mp4` | anime-chrome-nun.png | Chrome specular crawl |
+| `anime-red-liquid.mp4` | anime-red-liquid.png | Viscous red shimmer |
+| `dark-knight.mp4` | dark-knight.png | Slow push-in |
+| `battlefield-banners.mp4` | battlefield-banners.png | Banner flutter / smoke |
 
-Job IDs (2026-08-02): hero-cover `051df1ba…`, portrait-blood `2e8abb6b…`, armor-lamb `bd93cc57…`, black-cat `f9d08b7d…`, gothic-tower `1df8df0b…`, hero-pier `ad046821…`, anime-chrome `31b666ac…`, anime-red `73f2822c…`, dark-knight `d6cc091d…`, battlefield `088a2a40…`.
+## Generation notes (2026-08-02)
+
+- Model: `kling3_0_turbo` · duration 5s · start_image from brand stills
+- Post: `ffmpeg` libx264 CRF 23, mute (`-an`), scale ≤1280, `+faststart`
+- Native fallback still uses poster PNGs via `LoopVideo.tsx`
