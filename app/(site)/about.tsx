@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
-import { Image } from "expo-image";
 import { Wrapper } from "@/components/Wrapper";
 import { PageSeo } from "@/components/PageSeo";
+import { LoopVideo } from "@/components/LoopVideo";
 
 export default function AboutScreen() {
   return (
@@ -21,10 +21,10 @@ export default function AboutScreen() {
       </View>
       <Wrapper className="gap-6 py-10">
         <View className="flex-row flex-wrap gap-6">
-          <Image
-            source={{ uri: "/images/brand/armor-lamb.png" }}
+          <LoopVideo
+            src="/videos/brand/armor-lamb.mp4"
+            poster="/images/brand/armor-lamb.png"
             className="aspect-[3/4] w-full max-w-[360px] border-2 border-border"
-            contentFit="cover"
           />
           <View className="min-w-[260px] flex-1 gap-4">
             <Text className="font-[Anton] text-3xl uppercase leading-[0.95] tracking-[1px] text-fg">
