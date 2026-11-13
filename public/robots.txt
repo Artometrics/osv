@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://kylesmcauliffe.com/sitemap.xml
+Disallow: /
