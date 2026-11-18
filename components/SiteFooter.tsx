@@ -10,6 +10,7 @@ const COLUMNS = [
       ["/podcast", "Podcast"],
       ["/authors", "Authors"],
       ["/about", "About"],
+      ["/sources", "Sources"],
     ],
   },
   {
