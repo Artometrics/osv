@@ -1,6 +1,7 @@
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
 import { Stack } from "expo-router";
+import Head from "expo-router/head";
 import * as SplashScreen from "expo-splash-screen";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import "react-native-gesture-handler";
@@ -24,10 +25,17 @@ export default function RootLayout() {
     if (loaded || error) void SplashScreen.hideAsync();
   }, [loaded, error]);
 
-  if (!loaded && !error) return null;
+  const head = (
+    <Head>
+      <title>OSV — dark gothic magazine</title>
+    </Head>
+  );
+
+  if (!loaded && !error) return head;
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+      {head}
       <Stack
         screenOptions={{
           headerShown: false,

@@ -15,6 +15,7 @@ export default function Root({ children }: PropsWithChildren) {
           name="description"
           content="OSV — dark gothic magazine. Essays, interviews, and cultural signal."
         />
+        <meta name="robots" content="noindex, nofollow" />
         <meta property="og:site_name" content="OSV" />
         <meta property="og:type" content="website" />
         <link
