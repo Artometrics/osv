@@ -11,11 +11,14 @@ export default function Root({ children }: PropsWithChildren) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <title>OSV — Dark Gothic Magazine</title>
+        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="OSV — dark gothic magazine. Essays, interviews, and cultural signal."
         />
         <meta property="og:site_name" content="OSV" />
+        <meta property="og:title" content="OSV — Dark Gothic Magazine" />
         <meta property="og:type" content="website" />
         <link
           rel="alternate"
