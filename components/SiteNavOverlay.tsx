@@ -8,6 +8,7 @@ const LINKS = [
   { href: "/podcast", label: "Podcast" },
   { href: "/authors", label: "Authors" },
   { href: "/about", label: "About" },
+  { href: "/sources", label: "Sources" },
   { href: "/pricing", label: "Membership" },
   { href: "/contact", label: "Contact" },
   { href: "/login", label: "Log in" },

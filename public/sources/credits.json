@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "charon",
+    "file": "sources/charon.jpg",
+    "commons_title": "File:Gustave Dor\u00e9 - Dante Alighieri - Inferno - Plate 9 (Canto III - Charon).jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AGustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_9_%28Canto_III_-_Charon%29.jpg",
+    "license": "Public domain",
+    "artist": "Gustave Dor\u00e9",
+    "description": "Charon on the river Acheron, Inferno Canto III. Engraving by Gustave Dor\u00e9.",
+    "sha256": "6552020e564b2d10169caa5bf098101299baed5b2826b29497aa4e919b152b00",
+    "attribution": "Charon on the river Acheron, Inferno Canto III. Engraving by Gustave Dor\u00e9. Gustave Dor\u00e9. Public domain. Via Wikimedia Commons."
+  },
+  {
+    "slug": "paradise-lost-10",
+    "file": "sources/paradise-lost-10.jpg",
+    "commons_title": "File:Paradise Lost 10.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3AParadise_Lost_10.jpg",
+    "license": "Public domain",
+    "artist": "Gustave Dor\u00e9",
+    "description": "Illustration for John Milton\u2019s Paradise Lost. Engraving by Gustave Dor\u00e9.",
+    "sha256": "db872ae07319416e8ec1dd311a5ace959784663bbe811a9b7090b4434f02bd0a",
+    "attribution": "Illustration for John Milton\u2019s Paradise Lost. Engraving by Gustave Dor\u00e9. Gustave Dor\u00e9. Public domain. Via Wikimedia Commons."
+  },
+  {
+    "slug": "raven",
+    "file": "sources/raven.jpg",
+    "commons_title": "File:Dore The Raven 1884-15.jpg",
+    "commons_url": "https://commons.wikimedia.org/wiki/File%3ADore_The_Raven_1884-15.jpg",
+    "license": "Public domain",
+    "artist": "Artist: Gustave Dor\u00e9 (initial upload by McLeod)",
+    "description": "Illustration for Edgar Allan Poe\u2019s The Raven (1884). Engraving by Gustave Dor\u00e9.",
+    "sha256": "9959df232d111f59417ab6c3362c5279e5f50a70183135f8bf05cce5fbe15107",
+    "attribution": "Illustration for Edgar Allan Poe\u2019s The Raven (1884). Engraving by Gustave Dor\u00e9. Gustave Dor\u00e9. Public domain. Via Wikimedia Commons."
+  }
+]
