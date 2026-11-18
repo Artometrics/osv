@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Platform } from "react-native";
+import Head from "expo-router/head";
 import { siteUrl } from "@/lib/assets";
 
 type Props = {
@@ -59,5 +60,14 @@ export function PageSeo({
     link.href = url;
   }, [title, description, path, image, type]);
 
-  return null;
+  // Static export: render the title + description into the HTML so crawlers,
+  // link previews and the browser tab get them before JS runs.
+  const fullTitle = title.includes("OSV") ? title : `${title} · OSV`;
+  return (
+    <Head>
+      <title>{fullTitle}</title>
+      {description ? <meta name="description" content={description} /> : null}
+      <meta property="og:title" content={fullTitle} />
+    </Head>
+  );
 }
